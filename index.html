@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+  font-family:'Luckiest Guy', sans-serif;
+}
+#load{
+    animation:spin 2s linear infinite;
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+    </style>
+    <title>Pro link tree</title>
+</head>
+<body class="bg-[url(https://i.postimg.cc/pVsVL42K/bg.jpg)] bg-no-repeat bg-[length:100vw_100vh] flex justify-center items-center h-screen scroll-smooth">
+    <div class="absolute top-0 left-0 w-[100vw] h-[100vh] bg-[black] z-10 flex justify-center items-center flex-col" id="flash">
+        <i class="ri-loader-3-line text-[white] text-[12vh]" id="load"></i>
+        <h3 class="text-[white] tracking-wider text-[4vh]" style="font-family:'Luckiest Guy', sans-serif">Not loading...</h3>
+    </div>
+    <!-- <img src="bg.jpg" class="h-[100vh] w-[100vw]"> -->
+    <div class="w-[80vw] p-[7vh] bg-white/15 shadow-xl backdrop-blur-xl rounded-lg flex justify-between items-center flex-col lg:w-[40vw] lg:h-[95%] md:h-[90%] ">
+        <div class="rounded-full h-[20vw] w-[20vw] lg:w-[16vh] lg:h-[16vh] md:w-[10vw] md:h-[10vw] bg-[url(https://i.postimg.cc/Z576PVFN/pro.jpg)] bg-cover bg-center"></div>
+        <h1 class="text-[white] mt-[3vh] tracking-wider text-[3vh]" style="">HIMANSHU</h1>
+        <a href="https://www.instagram.com/code__with_himanshu/"><div class="w-[30vh] h-[7vh] rounded-lg bg-white/15 backdrop-blur-lg mt-[3vh] flex justify-between items-center text-[2vh]">
+            <i class="ri-instagram-fill flex justify-center w-[20%] text-[3vh]"></i>
+            <h3 class="w-[80%] flex justify-center tracking-wider font-light">Instagram</h3>
+            </div></a>
+        <a href="https://www.facebook.com/profile.php?id=100093116797094"><div class="w-[30vh] h-[7vh] rounded-lg bg-white/15 backdrop-blur-lg mt-[5vh] flex justify-between items-center text-[2vh]">
+            <i class="ri-facebook-fill flex justify-center w-[20%] text-[3vh]"></i>
+            <h3 class="w-[80%] flex justify-center tracking-wider font-light">Facebook</h3>
+        </div></a>
+        <a href="https://t.me/User_not_found110"><div class="w-[30vh] h-[7vh] rounded-lg bg-white/15 backdrop-blur-lg mt-[5vh] flex justify-between items-center text-[2vh]">
+            <i class="ri-telegram-fill flex justify-center w-[20%] text-[3vh]"></i>
+            <h3 class="w-[80%] flex justify-center tracking-wider font-light">Telegram</h3>
+        </div></a>
+        <a href="https://wa.link/civ7gr"><div class="w-[30vh] h-[7vh] rounded-lg bg-white/15 backdrop-blur-lg mt-[5vh] flex justify-between items-center text-[2vh]">
+            <i class="ri-whatsapp-fill flex justify-center w-[20%] text-[3vh]"></i>
+            <h3 class="w-[80%] flex justify-center tracking-wider font-light">Whatsapp</h3>
+        </div></a>
+        <a href="https://discordapp.com/users/himanshu_1101"><div class="w-[30vh] h-[7vh] rounded-lg bg-white/15 backdrop-blur-lg mt-[5vh] flex justify-between items-center text-[2vh]">
+            <i class="ri-discord-fill flex justify-center w-[20%] text-[3vh]"></i>
+            <h3 class="w-[80%] flex justify-center tracking-wider font-light">Discord</h3>
+        </div></a>
+    </div>
+    
+    <script>
+        var flash=document.getElementById("flash");
+        setTimeout(()=>{
+           flash.style.transition="all 1s ease";
+            flash.style.transform="translateY(-100%)";
+        },3000);
+    </script>
+</body>
+</html>
